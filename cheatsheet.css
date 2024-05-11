@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Jua|Amaranth|Signika|Comfortaa:300,400,700');
+
+body{
+font-family: Verdana, Geneva, sans-serif;
+font-size:16px;
+margin: 20px;
+margin-left: 50px;
+margin-right: 50px;
+}
+p{font-size:.8em }
+h1{
+
+font-family:'Jua', Gadget, sans-serif;
+font-size:45px;
+}
+
+h2{
+	font-family:'Jua', Gadget, sans-serif;
+	font-size:35px;
+}
+
+h3{
+	font-family:'Arial Black', Gadget, sans-serif;
+	font-size:20px;
+}
+
+h4{
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size:22px;
+	color:#013243;
+	border-bottom: 1px solid #013243;
+}
+
+h4.topic{
+	font-family:'Arial Black', Gadget, sans-serif;
+	font-size:18px;
+	color:#000000;
+	border-bottom: 0px solid #000000;
+}
+
+ul.topic li {
+    font-family : 'Trebuchet MS';
+    font-size : .8em;
+    line-height: 1.5em;
+    margin-bottom : 5px;
+}
+
+ul.topic li a 
+{
+    margin:0px;padding: 0px; 
+    text-decoration: none;  
+    color:#000000;
+}
+
+ul.topic li a:hover{
+    border-bottom: 2px #C93756 solid;
+}
+
+ul.topic li ul li {
+    font-size : 1em;
+    line-height: 1.5em;
+}
+ul.topic li ul{
+Margin-left:10px;
+}
+
+ul li {
+font-family:tahoma;
+
+font-size:15px;
+margin-bottom:20px;
+}
+
+ul li ul{
+Margin-left:10px;
+}
+
+ul.exemple2 li {
+font-family:tahoma;
+
+font-size:15px;
+margin-bottom:10px;
+}
+
+ul.exemple2 li ul{
+Margin-left:10px;
+}
+
+table th {
+background-color:#F4D03F;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-size:13px;
+dir:ltr;
+padding:8px;
+text-align : center;
+border-radius:3px;
+min-height: 50px;
+}
+
+table td {
+background-color:#EEEEEE;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-size:12px;
+dir:ltr;
+padding:8px;
+text-align : center;
+line-height:22px;
+}
+
+.left{
+text-align:left;
+}
+
+.dleft
+{
+    display: inline-block;
+    float: left;
+    width: auto;
+    min-height: 45px;
+    max-height: 120px;
+}
+
+.dright
+{
+    display: inline-block;
+    float: right;
+}
+
+.defination{
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size:13px;
+	direction:ltr;
+	color:#446CB3;
+	font-style: italic;
+	
+}
+
+.denglis, .EngExemple {
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size:10px;
+	direction:ltr;
+	color:#666666;
+	font-style: italic;
+	
+}
+
+.EngExemple{font-size:12px;}
+
+.exemple{
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:underline;
+}
+.top{
+position: relative;
+    bottom: 0px;
+    right: 20px;
+    background: #e3e3e3;
+    background: #e3e3e3;
+    width: 10px;
+    height: 10px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	color:#ffffff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding:5px;
+	float:right;
+    
+}
+
+
+.top2{
+position: relative;
+        background: #e3e3e3;
+    background: #e3e3e3;
+    width: 7px;
+    height: 7px;
+    display:inlile-block;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	color:#ffffff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding:3px;
+	
+    
+}
+
+
+td a:link,
+td a:visited, 
+td a:focus, 
+td a:hover,
+td a:active {color: #000000; 
+text-decoration:none;
+font-family:'Trebuchet MS', Helvetica, sans-serif;
+padding:5px;
+border-radius:3px;
+margin:3px;
+}
+td a:hover {color: #000000; background-color:#F4D03F}
+
+.TopHeaderBar{
+    display: block; 
+    width: 100%;
+    height: auto;
+    min-height: 45px;
+    max-height: 1200px;
+    background-color: #D24D57; 
+    border-radius: 5px;
+    padding: 10px;
+    clear: both;
+    overflow: visible;
+}
+
+.TopHeaderBar a { display: inline-block; min-height: 20px; padding: 10px;
+text-decoration: none;
+font-family: Signika;
+    color: #ffffff;
+    font-size: 1em;
+border-radius: 3px;}
+.TopHeaderBar a:hover{background-color: #E68364;}
+
+
+.TopHeaderBarF{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:center;
+    align-content:center;
+     background-color: #D24D57; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:10px;
+}
+.TopHeaderBarF a { display: inline-block; min-height: 20px; padding: 10px;
+text-decoration: none;
+font-family: Signika;
+    color: #ffffff;
+    font-size: 1em;
+border-radius: 3px;
+
+}
+.TopHeaderBarF a:hover{background-color: #E68364;}
+
